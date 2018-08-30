@@ -109,12 +109,21 @@
     "sass-loader": "^4.0.0",
     "style-loader": "^0.13.0",
     "url-loader": "^0.5.7",
-    "webpack": "^1.12.11",
+    "webpack": "^1.15.0",
     "webpack-dev-middleware": "^1.5.0",
     "webpack-dev-server": "^1.14.1",
     "webpack-hot-middleware": "^2.6.0",
     "webpack-merge": "^1.0.2",
     "yargs": "^6.5.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "fine-uploader": "^5.16.2",
+    "fine-uploader-wrappers": "^1.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "offline-plugin": "^5.0.5",
+    "path": "^0.12.7",
+    "react-fine-uploader": "^1.1.1",
+    "react-images-uploader": "^1.2.0-rc1",
+    "react-progress-button": "^5.1.0"
+  }
 }

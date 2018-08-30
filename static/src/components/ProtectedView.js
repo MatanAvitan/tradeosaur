@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import * as actionCreators from '../actions/data';
+import UploadComponent from './ImageHandler/FileListener';
 
 function mapStateToProps(state) {
     return {
@@ -36,9 +37,9 @@ export default class ProtectedView extends React.Component {
                     ? <h1>Loading data...</h1>
                     :
                     <div>
-                        <h1>Welcome back,
-                            {this.props.userName}!</h1>
-                        <h1>{this.props.data.data.email}</h1>
+                        <h1>Welcome back</h1>
+                        {console.log('bka')}
+                        <UploadComponent/>
                     </div>
                 }
             </div>

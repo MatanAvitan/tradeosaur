@@ -16,7 +16,11 @@ module.exports = {
         loaders: [{
             test: /\.scss$/,
             loader: 'style!css?localIdentName=[path][name]--[local]!postcss-loader!sass',
-        }],
+        },{
+            test: /\.css$/,
+            loader: "style-loader!css-loader"
+        }
+        ],
     },
 
     plugins: [
